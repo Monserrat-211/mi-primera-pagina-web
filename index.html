@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Razas de Gatitos</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #cfcfcf;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #9e9e9e;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #757575;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 12px;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        footer {
+            background-color: #e0e0e0;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Razas de Gatitos</h1>
+    <p>Conoce algunas de las razas más adorables y populares.</p>
+</header>
+
+<nav>
+    <a href="#persa">Persa</a>
+    <a href="#siames">Siamés</a>
+    <a href="#mainecoon">Maine Coon</a>
+</nav>
+
+<main>
+
+    <section id="persa">
+        <h2>Gato Persa</h2>
+        <p>
+            El gato persa es reconocido por su pelaje largo y abundante. 
+            Es tranquilo, cariñoso y disfruta ambientes relajados.
+        </p>
+        <img src="https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg" alt="Gato Persa">
+        <br>
+        <button>Más información</button>
+    </section>
+
+    <section id="siames">
+        <h2>Gato Siamés</h2>
+        <p>
+            El siamés es elegante y activo. Destaca por sus ojos azules intensos 
+            y su personalidad comunicativa y afectuosa.
+        </p>
+        <img src="https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg" alt="Gato Siamés">
+        <br>
+        <button>Más información</button>
+    </section>
+
+    <section id="mainecoon">
+        <h2>Maine Coon</h2>
+        <p>
+            El Maine Coon es una de las razas más grandes. 
+            Son amigables, inteligentes y muy sociables.
+        </p>
+        <img src="https://cdn2.thecatapi.com/images/5b2Edv3tM.jpg" alt="Maine Coon">
+        <br>
+        <button>Más información</button>
+    </section>
+
+    <section>
+        <h2>Registro de Interés</h2>
+        <p>Déjanos tus datos para recibir más información sobre gatitos.</p>
+
+        <form>
+            <label>Correo electrónico:</label>
+            <input type="email" placeholder="Ingresa tu correo" required>
+
+            <label>Número de celular:</label>
+            <input type="tel" placeholder="Ingresa tu número" required>
+
+            <label>Día:</label>
+            <input type="number" min="1" max="31" required>
+
+            <label>Mes:</label>
+            <input type="number" min="1" max="12" required>
+
+            <label>Año:</label>
+            <input type="number" min="1900" max="2100" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Página sobre Razas de Gatitos | HTML5 & CSS</p>
+</footer>
+
+</body>
+</html>
